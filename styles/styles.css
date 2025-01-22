@@ -1,6 +1,6 @@
     /* shared styles */
 
-    
+
 body{
     max-width: 1440px;
     margin: 0 auto;
@@ -54,3 +54,46 @@ body{
     font-weight: 700;
     font-size: 20px;
 }
+
+
+  /* menu color styles */
+ 
+  .home{
+    color: rgba(0, 183, 255, 0.925);
+}
+.about{
+    color: violet
+}
+.facilities{
+    color: brown;
+}
+.admission{
+    color: tomato;
+}
+   
+ 
+   
+  /* three-line menu styles */
+   
+.line{
+    width: 25px;
+    height: 3px;
+    background-color: #333232;
+    margin-top: 4px;
+   
+}
+ 
+.three-line-menu{
+    display: none;
+     
+}
+
+/* marquee stylees */
+
+
+.discount{
+    font-size: 2rem;
+    font-weight: 700;
+    color: chocolate;
+  }
+  
