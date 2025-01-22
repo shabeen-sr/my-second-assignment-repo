@@ -251,4 +251,84 @@ body{
   padding: 20px;
    
 }
+
+
+/* Our Stories Styles */
+
+
+.s-h2{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+  
+  
+.s-p{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+  
+  
+.our-stories-title{
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-align: center;
+}
+  
+
+.story-1-5{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+   
+}
+  
+  
+.big-card{
+  max-width: 540px;
+  height: 630px;
+  background-color: #b7e8ff;
+  border-radius: 16px;
+   
+}
+
+.st-img{
+  border-radius: 16px 16px 0 0px;
+}
+  
+  
+.small-card{
+  background-color: #b7e8ff;
+  border-radius: 16px;
+  width: 290px;
+  height: 301px;
+   
+}
+  
+  
+.date{
+  position: relative;
+  bottom: 10px;
+  left: 30px;
+  font-size: 0.8rem;
+  color: #fff;
+  background: #00ccff;
+  padding: 5px 10px;
+  border-radius: 6px;
+  
+  
+}
+  
+  
+.small-cards{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+  
+  
+.view-button{
+  text-align: center;
+  margin-top: 20px;
+}
+  
   
