@@ -1,0 +1,56 @@
+    /* shared styles */
+
+    
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+    
+
+.btn-primary{
+    border: none;
+    background-color: rgb(255, 0, 85);
+    color: white;
+    padding: 10px 60px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 600;
+}
+  
+   
+   /* navbar styles  */
+ 
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: auto;
+}
+   
+.logo{
+    display: flex;
+    align-items: center;
+  }
+   
+.logo-img{
+    margin-right: 15px;
+}
+   
+.school{
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+}
+
+   
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+   
+.nav-links a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
