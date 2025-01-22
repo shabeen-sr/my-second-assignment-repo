@@ -409,4 +409,109 @@ body{
   justify-content: center;
    
 }
+
+
+
+  /* Responsive styles */
+ 
+  @media screen and (max-width: 576px) {
+ 
+    .nav-links,
+    .contact-btn,
+    .school{
+      display: none;
+    }
+   
+    .logo-img{
+      display: block;
+      max-width: 46px;
+      max-height: 46px;
+      padding-left: 16px;
+    }
+   
+    .three-line-menu{
+      display: block;
+      padding-right: 16px;
+    }
+   
+    .navbar{
+      padding: 20px;
+      border-bottom: 1px solid #b69b00;
+    }
+  
+  
+    .hero-section{
+      flex-direction: column-reverse;
+      text-align: center;  
+  
+  
+    }
+  
+  
+    .section-image{
+      padding-right: 50px;
+      max-width: 70%;
+     
+    }
+    .hero-content{
+      max-width: 80%;
+    }
+  
+  
+    .container{
+      width: 100%;
+      padding-right: 0%;
+    }
+  
+  
+    .container-title {
+      font-size: 2rem;
+    }
+  
+  
+    .cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  
+    .card {
+      width: 90%;
+      margin-bottom: 20px;
+     
+    }
+  
+  
+    .curriculum{
+      max-width: 100%;
+    }
+  
+  
+  
+    .double-arrow{
+      display: none;
+    }
+  
+  
+    .big-card{
+      display: none;
+    }
+  
+  
+    .small-cards{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+     
+    }
+  
+  
+    .footer-container{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+  
+  
+}
+  
   
